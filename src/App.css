@@ -1,0 +1,128 @@
+.container {
+  max-width: 750px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Market Deco';
+  /* text-shadow: 0 2px 5px #ce13d4, 0 0 10px, 0 0 30px #ff05b4; */
+  text-shadow: 0 2px 5px #ff3b21, 0 0 10px, 0 0 30px #e00f0f;
+  animation: glow 1.4s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    /* text-shadow: 0 0 6px rgb(136, 98, 133), 0 2px 15px #790d73, 0 0 20px #e600db; */
+    text-shadow: 0 0 6px #da5353, 0 2px 15px #d41f1f, 0 0 20px #f70b0b;
+  }
+  to {
+    /* text-shadow: 0 1px 5px rgb(216, 61, 221), 0 1px 20px #d100c7, 0 0 25px #e600db; */
+    text-shadow: 0 1px 5px #ec7f7f, 0 1px 20px #ee2929, 0 0 26px #ff0000;
+  }
+}
+
+/* -- Buttons -- */
+button {
+  font-family: 'Poppins';
+  border-radius: 40px;
+  border: 2px solid #eb6060;
+  background-color: rgba(46, 46, 46, 0.404);
+  box-shadow: 0 0 1px #b80808, 0 0 3px, 0 0 7px #c20202;
+  color: #ebebeb;
+  transition-property: background-color, border, box-shadow;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(32, 32, 32, 0.699);
+  border: 2px solid #f04b4b;
+  box-shadow: 0 0 2px #af1804, 0 0 4px, 0 0 6px #c00000;
+}
+
+button:active {
+  background-color: rgba(32, 32, 32, 0.911);
+  border: 2px solid #f53c3c;
+  box-shadow: 0 0 3px #eb412a, 0 0 5px, 0 0 10px #e00f0f;
+
+}
+
+.btnSubmit {
+  width: 45px;
+  height: 30px;
+  margin-left: 6px;
+}
+
+.btnEdit {
+  width: 49px;
+  height: 35px;
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+.btnDelete {
+  width: 50px;
+  height: 35px;
+  padding: 2px;
+}
+
+.btnLoading {
+  width: 70px;
+  height: 35px;
+}
+
+.material-icons-outlined {
+  font-size: 20px;
+}
+
+
+/* -- List -- */
+ul {
+  padding: 15px 20px;
+}
+
+li {
+  padding: 2px;
+}
+
+.list {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Inputs */
+input:empty {
+  font-family: 'Poppins';
+  border-radius: 40px;
+  border: 2px solid #eb6060;
+  background-color: rgba(46, 46, 46, 0.623);
+  box-shadow: 0 0 2px #eb1818, 0 0 3px, 0 0 7px #e00f0f;
+  outline: #ec7a7a;
+  color: #ebebeb;
+  padding: 2px 6px;
+  margin-left: 8px;
+  transition-property: background-color, border, box-shadow;
+  transition-duration: 0.5s;
+}
+
+form input:focus {
+  border: 2px solid #e44a4a;
+  background-color: rgba(32, 32, 32, 0.781);
+  box-shadow: 0 0 4px #ff1b1b, 0 0 6px, 0 0 10px #f10a0a;
+}
+
+/* Forms */
+form {
+  padding: 25px 0 10px 10px;
+  display: flex;
+  justify-content: start;
+}
+
+label {
+  padding-top: 4px;
+}

@@ -1,0 +1,20 @@
+a {
+    font-family: 'Maven Pro';
+}
+
+a.active {
+    color: #ff5050;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #cabec8;
+}
+
+nav {
+    margin-right: 14px;
+    text-shadow: 0 0 5px #ff3b21, 0 0 10px #ff3b21, 0 0 15px #e00f0f;
+}
+

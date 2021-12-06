@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c0c11;
+    color: white;
+    font-family: 'Outfit';
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    transition-property: color, border;
+    transition-duration: 0.5s;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #e07474;
+}
